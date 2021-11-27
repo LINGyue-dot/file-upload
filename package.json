@@ -1,0 +1,20 @@
+{
+  "name": "file-upload",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon app/index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "0.0.16",
+    "koa-json-error": "^3.1.2",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^10.1.1",
+    "multiparty": "^4.2.2",
+    "nodemon": "^2.0.15"
+  }
+}
